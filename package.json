@@ -1,0 +1,28 @@
+{
+  "name": "aws_presign_download",
+  "version": "1.0.0",
+  "description": "Example of NodeJS auth / download with AWS Presigned URL",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start:dev": "./node_modules/nodemon/bin/nodemon.js src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wabeeler/aws_presign_download.git"
+  },
+  "author": "Brad Beeler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wabeeler/aws_presign_download/issues"
+  },
+  "homepage": "https://github.com/wabeeler/aws_presign_download#readme",
+  "dependencies": {
+    "aws-sdk": "^2.437.0",
+    "koa": "^2.7.0",
+    "koa-basic-auth": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.18.11"
+  }
+}
